@@ -19,3 +19,10 @@ allprojects {
         google()
     }
 }
+
+// not convinced this is a good idea
+android {
+  lintOptions {
+      abortOnError false
+  }
+}
