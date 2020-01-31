@@ -18,4 +18,4 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: debug build
-        path: VI8/android/build/outputs/apk/VI8.apk
+        path: android/build/outputs/apk/VI8.apk
